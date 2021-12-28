@@ -28,11 +28,13 @@ Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a 
 - Temos bases de abril de 2018 a maio de 2020, com exceção de junho de 2018 que não possui base de dados
 
 ## Deploy
-- Abrir o Anaconda Prompt e digitar:
+- Abrir o Anaconda Prompt:
 ``` 
+//Acessar os Dowloads
 cd Downloads
 ```
 ``` 
+//Executar um host para o usar o modelo.
 streamlit run arquivo
 ```
 
