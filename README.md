@@ -21,13 +21,20 @@ Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a 
 
 - Caso queira uma outra solução, pode olhar como referência a solução do usuário Allan Bruno do kaggle no Notebook: https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
 
-- Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
+- Há semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
 
 - As bases de dados são os preços dos imóveis obtidos e suas respectivas características em cada mês.
 - Os preços são dados em reais (R$)
 - Temos bases de abril de 2018 a maio de 2020, com exceção de junho de 2018 que não possui base de dados
 
-## Expectativas Iniciais
-- Acredito que a sazonalidade pode ser um fator importante, visto que meses como dezembro costumam ser bem caros no RJ.
-- A localização do imóvel deve fazer muita diferença no preço, já que no Rio de Janeiro a localização pode mudar completamente as características do lugar (segurança, beleza natural, pontos turísticos).
-- Adicionais/Comodidades podem ter um impacto significativo, visto que temos muitos prédios e casas antigos no Rio de Janeiro
+## Run
+- Abrir o Anaconda Prompt:
+``` 
+//Acessar os Dowloads
+cd Downloads
+```
+``` 
+//Executar um host para o usar o modelo.
+streamlit run arquivodeDeploy.py
+```
+
