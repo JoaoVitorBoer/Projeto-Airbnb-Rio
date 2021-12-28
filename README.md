@@ -46,6 +46,6 @@ cd Downloads
 - Executar um host para o usar o modelo.
 ``` 
 // Selecionar o arquivo com a extensão .py
-streamlit run arquivodeDeploy.py
+streamlit run DeployProjetoAirbnb.py
 ```
 
