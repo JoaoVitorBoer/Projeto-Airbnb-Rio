@@ -27,14 +27,19 @@ Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a 
 - Os preços são dados em reais (R$)
 - Temos bases de abril de 2018 a maio de 2020, com exceção de junho de 2018 que não possui base de dados
 
+## Observação
+- Os arquivos com Deploy no nome são iguais, pois para executar com o streamlit é necessário que o arquivo tenha a extensão.py.
+
 ## Run
+- Certifique-se que o arquivo "modelo.joblib" está na mesma pasta do DeployProjetoAirbnb.py
 - Abrir o Anaconda Prompt:
 ``` 
 //Acessar os Dowloads
 cd Downloads
 ```
+- Executar um host para o usar o modelo.
 ``` 
-//Executar um host para o usar o modelo.
+// Selecionar o arquivo com a extensão .py
 streamlit run arquivodeDeploy.py
 ```
 
