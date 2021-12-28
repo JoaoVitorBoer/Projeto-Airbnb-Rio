@@ -35,15 +35,24 @@ Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a 
 
 ## Observação
 - Os arquivos com Deploy no nome são iguais, pois para executar com o ***streamlit*** é necessário que o arquivo tenha a extensão ***py***.
+- Certifique-se de ter instalado o Pandas[^1], Numpy[^2], Joblib[^3], Streamlit[^4], Pathlib[^5], Seaborn[^6], Matplotlib[^7], Plotly[^8] e Sklearn[^9].  
 
+ [^1]: ```pip install pandas```
+ [^2]: ```pip install numpy```
+ [^3]: ```pip install joblib```
+ [^4]: ```pip install streamlit```
+ [^5]: ```pip install pathlib``` 
+ [^6]: ```pip install seaborn```
+ [^7]: ```pip install matplotlib``` 
+ [^8]: ```pip install plotly``` 
+ [^9]: ```pip install scikit-learn```  
+  
 ## Run
-- Certifique-se que o arquivo ***"modelo.joblib"*** está na mesma pasta do ***DeployProjetoAirbnb.py***.
-- Abrir o Anaconda Prompt:
-``` 
-//Acessar os Dowloads
-cd Downloads
-```
-- Executar um host para o usar o modelo.
+- Execute primeiro ***Solução Final - Airbnb Rio***, assim obteremos o arquivo com a extensão ***.joblib***(não foi incluido nos arquivos disponíveis pois é pesado).
+- Certifique-se que o arquivo gerado ***.joblib*** está na mesma pasta do ***DeployProjetoAirbnb.py***.
+- Abrir o Anaconda Prompt ou o Terminal.
+- Acessar a pasta aonde os arquivos estão.
+- Executar um host para o usar o modelo:
 ``` 
 // Selecionar o arquivo com a extensão .py
 streamlit run DeployProjetoAirbnb.py
