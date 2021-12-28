@@ -35,6 +35,6 @@ cd Downloads
 ```
 ``` 
 //Executar um host para o usar o modelo.
-streamlit run arquivo
+streamlit run arquivodeDeploy.py
 ```
 
